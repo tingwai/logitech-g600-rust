@@ -1,0 +1,116 @@
+_default:
+    G9: xdotool key ctrl+shift+t
+    G10: xdotool key Page_Up
+    G11: xdotool key ctrl+shift+Tab
+    G12: xdotool key ctrl+w
+    G13: xdotool key Page_Down
+    G14: xdotool key ctrl+Tab
+    G15: xdotool key super+h
+    G16: xdotool key alt+Tab
+    G17: xdotool key super+shift+Tab
+    G18: xdotool key alt+F4
+    G19: xdotool key ctrl+alt+Down
+    G20: xdotool key super+Tab
+    G_shift_G9: xdotool key ctrl+9
+    G_shift_G10: xdotool key Home
+    G_shift_G11: xdotool key ctrl+shift+Page_Up
+    G_shift_G12: xdotool key ctrl+r
+    G_shift_G13: xdotool key End
+    G_shift_G14: xdotool key ctrl+shift+Page_Down
+    G_shift_G15: playerctl play-pause
+    G_shift_G16: xdotool key Escape
+    G_shift_G17: amixer -D pulse sset Master 3%+
+    G_shift_G18: xdotool key Caps_Lock
+    G_shift_G19: xdotool key Super_L+j
+    G_shift_G20: amixer -D pulse sset Master 3%-
+# Navigator == Firefox
+Navigator: {}
+code:
+    G_shift_G10: xdotool key ctrl+Home
+    G_shift_G13: xdotool key ctrl+End
+gnome-terminal-server:
+    G10: xdotool key shift+Page_Up
+    G11: xdotool key ctrl+Page_Up
+    G13: xdotool key shift+Page_Down
+    G14: xdotool key ctrl+Page_Down
+    G_shift_G10: xdotool key shift+Home
+    G_shift_G13: xdotool key shift+End
+konsole:
+    G10: xdotool key shift+Page_Up
+    G11: xdotool key ctrl+Page_Up
+    G13: xdotool key shift+Page_Down
+    G14: xdotool key ctrl+Page_Down
+    G_shift_G10: xdotool key shift+Home
+    G_shift_G13: xdotool key shift+End
+idea:
+    G_shift_G10: xdotool key ctrl+Home
+    G_shift_G13: xdotool key ctrl+End
+    G_shift_G16: xdotool key shift+Escape
+jetbrains-goland:
+    G9: xdotool key ctrl+shift+F4
+    G11: xdotool key alt+Left
+    G12: xdotool key ctrl+F4
+    G14: xdotool key alt+Right
+    G_shift_G10: xdotool key ctrl+Home
+    G_shift_G11: xdotool key alt+Up
+    G_shift_G12: xdotool key alt+shift+Down
+    G_shift_G13: xdotool key ctrl+End
+    G_shift_G14: xdotool key alt+Down
+    G_shift_G16: xdotool key shift+Escape
+    G_shift_G9: xdotool key alt+shift+Up
+jetbrains-idea-ce:
+    G9: xdotool key ctrl+shift+F4
+    G11: xdotool key alt+Left
+    G12: xdotool key ctrl+F4
+    G14: xdotool key alt+Right
+    G_shift_G10: xdotool key ctrl+Home
+    G_shift_G11: xdotool key alt+Up
+    G_shift_G12: xdotool key alt+shift+Down
+    G_shift_G13: xdotool key ctrl+End
+    G_shift_G14: xdotool key alt+Down
+    G_shift_G16: xdotool key shift+Escape
+    G_shift_G9: xdotool key alt+shift+Up
+jetbrains-pycharm-ce:
+    G9: xdotool key ctrl+shift+F4
+    G11: xdotool key alt+Left
+    G12: xdotool key ctrl+F4
+    G14: xdotool key alt+Right
+    G_shift_G10: xdotool key ctrl+Home
+    G_shift_G11: xdotool key alt+Up
+    G_shift_G12: xdotool key alt+shift+Down
+    G_shift_G13: xdotool key ctrl+End
+    G_shift_G14: xdotool key alt+Down
+    G_shift_G16: xdotool key shift+Escape
+    G_shift_G9: xdotool key alt+shift+Up
+mate-terminal:
+    G10: xdotool key shift+Page_Up
+    G11: xdotool key ctrl+Page_Up
+    G13: xdotool key shift+Page_Down
+    G14: xdotool key ctrl+Page_Down
+    G_shift_G10: xdotool key shift+Home
+    G_shift_G13: xdotool key shift+End
+pluma:
+    G11: xdotool key ctrl+alt+Page_Up
+    G14: xdotool key ctrl+alt+Page_Down
+pycharm:
+    G9: xdotool key ctrl+shift+F4
+    G11: xdotool key alt+Left
+    G12: xdotool key ctrl+F4
+    G14: xdotool key alt+Right
+    G_shift_G10: xdotool key ctrl+Home
+    G_shift_G13: xdotool key ctrl+End
+    G_shift_G16: xdotool key shift+Escape
+spotify:
+    G11: xdotool key alt+Left
+    G14: xdotool key alt+Right
+sublime_text:
+    G_shift_G10: xdotool key ctrl+Home
+    G_shift_G13: xdotool key ctrl+End
+vlc:
+    G9: xdotool key shift+Left
+    G10: xdotool key alt+Left
+    G11: xdotool key ctrl+Left
+    G12: xdotool key shift+Right
+    G13: xdotool key alt+Right
+    G14: xdotool key ctrl+Right
+    G_shift_G15: xdotool key XF86AudioPlay

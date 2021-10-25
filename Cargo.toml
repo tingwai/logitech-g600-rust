@@ -1,0 +1,16 @@
+[package]
+name = "g600-rust"
+version = "0.1.0"
+authors = ["Ting-Wai To"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4"
+lazy_static = "1.4.0"
+nix = "0.21.0"
+regex = "1.5"
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.8"
+timer = "0.2.0"
