@@ -92,6 +92,8 @@ mate-terminal:
 pluma:
     G11: xdotool key ctrl+alt+Page_Up
     G14: xdotool key ctrl+alt+Page_Down
+    G_shift_G10: xdotool key ctrl+Home
+    G_shift_G13: xdotool key ctrl+End
 pycharm:
     G9: xdotool key ctrl+shift+F4
     G11: xdotool key alt+Left
