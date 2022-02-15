@@ -58,6 +58,18 @@ jetbrains-goland:
     G_shift_G14: xdotool key alt+Down
     G_shift_G16: xdotool key shift+Escape
     G_shift_G9: xdotool key alt+shift+Up
+jetbrains-idea:
+    G9: xdotool key ctrl+shift+F4
+    G11: xdotool key alt+Left
+    G12: xdotool key ctrl+F4
+    G14: xdotool key alt+Right
+    G_shift_G10: xdotool key ctrl+Home
+    G_shift_G11: xdotool key alt+Up
+    G_shift_G12: xdotool key alt+shift+Down
+    G_shift_G13: xdotool key ctrl+End
+    G_shift_G14: xdotool key alt+Down
+    G_shift_G16: xdotool key shift+Escape
+    G_shift_G9: xdotool key alt+shift+Up
 jetbrains-idea-ce:
     G9: xdotool key ctrl+shift+F4
     G11: xdotool key alt+Left
