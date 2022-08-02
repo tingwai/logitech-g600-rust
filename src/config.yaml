@@ -11,7 +11,7 @@ _default:
     G18: xdotool key alt+F4
     G19: xdotool key ctrl+alt+Down
     G20: xdotool key super+Tab
-    G_shift_G9: xdotool key ctrl+9
+    G_shift_G9: xdotool key alt+9
     G_shift_G10: xdotool key Home
     G_shift_G11: xdotool key ctrl+shift+Page_Up
     G_shift_G12: xdotool key ctrl+r

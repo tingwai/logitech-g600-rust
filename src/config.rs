@@ -27,14 +27,11 @@ pub fn run_command(config: &HashMap<String, HashMap<String, String>>, program: &
     };
     let command = match bindings.get(button) {
         Some(_) => &bindings[button],
-        None => &config["_default"][button],
+        None => match &config["_default"].get(button) {
+            Some(_) => &config["_default"][button],
+            None => "",
+        },
     };
-
-    // let repeat = format!("
-    // for i in {{1..10}}; do
-    //         {};
-    //         sleep 0.1
-    //         done", command);
 
     let output = Command::new("bash").arg("-c").arg(command).output()?;
     if !output.stderr.is_empty() {
